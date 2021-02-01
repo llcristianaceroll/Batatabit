@@ -129,7 +129,7 @@ main {
 .main-exchange-container p {
     margin-bottom: 30px;
     font-size: 1.4rem;
-    font-weight: 500px;
+    font-weight: 500;
     height: 1.6rem;
     color: #757575;
 }
@@ -326,5 +326,38 @@ main {
     font-weight: 500;
     line-height: 1.8rem;
     color: #808080;
-
+}
+.product-detail--card {
+    width:100%;
+    min-width:288px;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: va(--black);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.16);
+}
+.product-detail--card .clock {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url(./assets/icons/clock.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product--card-title {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+.product--card-body {
+    font-size: 1.4rem;
+    font-size: 500;
+    line-height: 1.8rem;
+    color: #808080
 }
